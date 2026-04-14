@@ -1,0 +1,95 @@
+
+  
+.navbar ul{
+    list-style:  none ;
+    background-color: rgb(148, 121, 100);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar a{
+    color:rgb(85, 40, 40)
+    padding:29px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: rgb(233, 221, 221);
+}
+.navbar li{
+    float:right
+
+}
+*{
+    margin: 10px;
+    padding: 0px
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color:rgb(7, 7, 7)
+}
+
+p{
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(218, 193, 148);
+}
+
+img{
+    border: 20px solid black;
+    margin: 0 auto;
+    padding: auto;
+    background-color: azure;
+}
+
+.footer-content p{
+    width: 80%;
+    margin: auto;
+    padding: auto;
+}
+.container{
+    width: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    width: 33%;
+    float: center;
+    margin-bottom: 15px;
+
+}
+.footer-content{
+    margin:0 auto;
+flex-direction: column;
+}
+
+.social-icons{
+    text-align: center;
+    padding: 0%;
+}
+.social-icons li{
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+
+}
+.social-icons i{
+    font-size: 24px;
+    color: rgb(219, 213, 213);
+}
+*{
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(54, 19, 19);
+}
+.social-icons i:hover{
+    color: rgb(54, 19, 19);
+}
+.bottom-bar{
+color: rgb(148, 121, 100);
+    font-size: 36px;
+}
